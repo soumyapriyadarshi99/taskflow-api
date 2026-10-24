@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+/dist
+/build
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Prisma generated client (regenerated via `prisma generate`)
+/src/generated/prisma/
+
+# Uploads (keep folder)
+/uploads/*
+!/uploads/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Docker
+postgres_data/
